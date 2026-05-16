@@ -1,0 +1,5 @@
+# ~/dotfiles/.gitignore
+**/.DS_Store
+fish/.config/fish/fish_variables    # machine-specific universal vars
+fish/.config/fish/completions/      # auto-generated
+fish/.config/fish/conf.d/           # plugin drops (if you add any)
