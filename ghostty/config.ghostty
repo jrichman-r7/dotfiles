@@ -1,0 +1,45 @@
+# ~/.config/ghostty/config.ghostty
+
+# === Font ===
+font-family = JetBrainsMono Nerd Font
+font-size = 14
+
+# === Theme ===
+# Run `ghostty +list-themes` to preview built-ins.
+# Try: tokyonight, GruvboxDark, nord, dracula, catppuccin-mocha
+theme = dark:Catppuccin Mocha,light:Catppuccin Latte
+
+# === Window ===
+window-padding-x = 12
+window-padding-y = 12
+window-padding-balance = true
+# macos-titlebar-style values: native | transparent | tabs | hidden
+macos-titlebar-style = tabs
+background-opacity = 0.97
+background-blur = true
+
+# === Cursor ===
+cursor-style = block
+cursor-style-blink = false
+
+# === Scrollback ===
+scrollback-limit = 100000
+
+# === Mouse / clipboard ===
+copy-on-select = clipboard
+mouse-hide-while-typing = true
+
+# === Bell ===
+# Disable all bell behaviors (sound, flash, dock badge, title, border)
+bell-features = no-system,no-audio,no-attention,no-title,no-border
+
+# === macOS niceties ===
+# Treat option key as alt so vim/helix/zellij see alt-keybinds
+macos-option-as-alt = true
+confirm-close-surface = false
+
+# === Keybinds (additions; defaults stay) ===
+# Reload config without restart
+keybind = cmd+shift+r=reload_config
+# Clear scrollback like iTerm2's cmd+k
+keybind = cmd+k=clear_screen
