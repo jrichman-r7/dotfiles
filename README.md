@@ -14,6 +14,29 @@ This repository contains personal configuration for a development environment ce
 
 The goal is a fast, ergonomic, mostly keyboard-first setup.
 
+## Programs
+
+This setup currently includes or installs:
+
+- **AeroSpace**
+- **bat**
+- **eza**
+- **fd**
+- **Fish**
+- **Fisher**
+- **Ghostty**
+- **Helix**
+- **Homebrew**
+- **JetBrains Mono Nerd Font**
+- **Karabiner-Elements**
+- **mise**
+- **plugin-bang-bang**
+- **ripgrep**
+- **Starship**
+- **stow**
+- **zellij**
+- **zoxide**
+
 ## Installation
 
 ### Quick start
@@ -32,7 +55,7 @@ The install script bootstraps the machine by:
 
 - installing Homebrew if needed
 - installing terminal and CLI tools
-- installing supporting GUI apps/fonts
+- installing supporting GUI apps and fonts
 - symlinking managed configuration with GNU Stow
 - setting Fish as the default shell
 
@@ -42,7 +65,7 @@ The install script bootstraps the machine by:
 
 The Fish setup initializes Starship and includes a few convenient abbreviations for working on the dotfiles repo and re-running Stow.
 
-Plugin management is handled with **Fisher**, and the current plugin list also includes **plugin-bang-bang**.
+Plugin management is handled with **Fisher**, and the configured plugins currently include **plugin-bang-bang**.
 
 ### AeroSpace
 
