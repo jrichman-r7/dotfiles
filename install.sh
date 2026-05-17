@@ -21,6 +21,7 @@ brew "eza"
 brew "zoxide"
 cask "ghostty"
 cask "font-jetbrains-mono-nerd-font"
+cask "aerospace"
 EOF
 
 # Symlinks
@@ -34,4 +35,3 @@ fi
 chsh -s "$(which fish)"
 
 echo "Done. Open new terminal."
-
