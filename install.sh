@@ -26,7 +26,7 @@ EOF
 
 # Symlinks
 cd "$(dirname "$0")"
-stow ghostty fish starship zellij helix
+stow ghostty fish starship zellij helix aerospace
 
 # Fish as default
 if ! grep -q "$(which fish)" /etc/shells; then
