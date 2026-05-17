@@ -22,6 +22,7 @@ brew "zoxide"
 cask "ghostty"
 cask "font-jetbrains-mono-nerd-font"
 cask "aerospace"
+cask "karabiner-elements"
 EOF
 
 # Symlinks
